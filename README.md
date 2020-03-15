@@ -11,17 +11,23 @@
 Recreate the functionality specified below. Refer to the images in `/docs` for recreating the styles
 
 - Include the Google Font [Noto Sans](https://fonts.google.com/specimen/Noto+Sans?selection.family=Noto+Sans) in your project. Make this the default body font.
-- Asynchronously fetch the data league player data from `http://my-json-server.typicode.com/nortenzio/leagueplayerstats/players`
+- Asynchronously fetch data from the following url:
+
+  `http://my-json-server.typicode.com/nortenzio/leagueplayerstats/players`
+
+
 - Create a main page with a `Favorites` section and an `Players` Section (see instructions below)
+
 - Match the style in the provided images as closely as possible
-- After 1 hour, zip of the content of your project *without* the `node_modules` directory and email to nortenzio@nba.com
+
+- After 1 hour, zip of the content of your project *without* the `node_modules` directory and email to nortenzio@nba.com, alternatively, you can fork this repository and commit your changes to your personal fork. Send a URL of the forked repository. **Do not make a PR back to this repo**
 
 
 ### Players Section
 
-- Sort the fetched json data by `pts` **descending**
+- Sort the fetched JSON data by `pts` *descending*
 - Within a `PlayerList` component
-  - Render the sorted data as a table
+  - Render the sorted data as a table with a row for each player object in the JSON
   - Each row should be it's own component named `PlayerRow`
 
 #### PlayerRow Component
