@@ -1,0 +1,8 @@
+/* td {
+    padding: 35px;
+    text-align: left;
+} */
+
+tr:nth-child(even) {
+    background-color: #dbd7d7;
+}

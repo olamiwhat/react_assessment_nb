@@ -1,9 +1,13 @@
+@import url('https://fonts.google.com/specimen/Noto+Sans?selection.family=Noto+Sans');
+
 body {
   padding: 3rem;
   background: #eee;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
 }
 
 .container {
-  max-width: 800px;
+  margin: 0 auto;
+  max-width: 80%;
 }

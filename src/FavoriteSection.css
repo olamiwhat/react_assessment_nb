@@ -1,0 +1,24 @@
+.favoriteContainer {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    margin: 20px; 
+}
+
+
+
+.favDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .favoritesContainer {
+        width: 100%
+    }
+}
